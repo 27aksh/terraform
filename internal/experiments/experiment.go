@@ -27,7 +27,6 @@ func init() {
 	registerConcludedExperiment(SuppressProviderSensitiveAttrs, "Provider-defined sensitive attributes are now redacted by default, without enabling an experiment.")
 	registerConcludedExperiment(ConfigDrivenMove, "Declarations of moved resource instances using \"moved\" blocks can now be used by default, without enabling an experiment.")
 	registerCurrentExperiment(ModuleVariableOptionalAttrs)
-	registerCurrentExperiment(PreconditionsPostconditions)
 }
 
 // GetCurrent takes an experiment name and returns the experiment value
